@@ -1,4 +1,4 @@
-;;; pache-dark-teme.el --- A high-contrast gruvbox theme for Emacs adapted from Gruber Darker -*- lexical-binding: t -*-
+;;; pache-dark-theme.el --- A high-contrast gruvbox theme for Emacs adapted from Gruber Darker -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2025 Henrique Marques
 ;; Copyright (C) 2013-2016 Alexey Kutepov a.k.a rexim
@@ -55,7 +55,7 @@
       (pache-dark-red+1     "#fe8019")
       (pache-dark-green     "#a9b665")
       (pache-dark-yellow    "#fabd2f")
-      (pache-dark-brown     "#d79921")
+      (pache-dark-brown     "#504945")
       (pache-dark-quartz    "#a89984")
       (pache-dark-niagara-2 "#2a2827")
       (pache-dark-niagara-1 "#504945")
@@ -423,5 +423,5 @@
 
 ;;; pache-dark-theme.el ends here.
 
-(provide 'pache-teme)
-;;; pache-teme.el ends here
+(provide 'pache-theme)
+;;; pache-theme.el ends here
