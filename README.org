@@ -1,0 +1,28 @@
+* Pache Dark
+
+A dark theme with high contrast. The colours are based on the gruvbox colour scheme by [[https://github.com/morhetz/gruvbox][morhetz]].
+The code base is adapted from [[https://github.com/rexim/gruber-darker-theme][gruber-darker]] theme.
+
+# Screenshot #
+
+[[./screenshot.png]]
+
+* Installation
+
+Download the theme to your local directory. You can do it through `git
+clone` command:
+
+#+BEGIN_SRC bash
+git clone https://github.com/0xhenrique/pache-dark-theme.git
+#+END_SRC
+
+Then add path to pache-dark-theme to custom-theme-load-path list —
+add the following to your emacs config file somewhere (.emacs,
+init.el, whatever):
+
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'custom-theme-load-path
+             "/path/to/pache-dark-theme/")
+#+END_SRC
+
+Use `M-x customize-themes` to change your current theme.
