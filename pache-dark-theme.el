@@ -1,4 +1,4 @@
-;;; pache-dark-theme.el --- A high-contrast theme based on gruvbox and adapted from Gruber Darker -*- lexical-binding: t -*-
+;;; pache-dark-theme.el --- High-contrast theme based on Gruvbox -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2025 Henrique Marques
 ;; Copyright (C) 2013-2016 Alexey Kutepov a.k.a rexim
@@ -8,6 +8,7 @@
 ;; URL: https://github.com/0xhenrique/pache-dark-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
+;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;; Permission is hereby granted, free of charge, to any person
 ;; obtaining a copy of this software and associated documentation
@@ -36,8 +37,8 @@
 ;;
 ;;; Code:
 
-(deftheme pache-theme
-  "Pache Darker theme for Emacs.")
+(deftheme pache-dark
+  "Pache Dark theme for Emacs.")
 
 ;; Colors with +x are lighter. Colors with -x are darker.
 (let ((pache-dark-fg        "#f2e5bc")
@@ -422,6 +423,3 @@
 ;; End:
 
 ;;; pache-dark-theme.el ends here.
-
-(provide 'pache-theme)
-;;; pache-theme.el ends here
